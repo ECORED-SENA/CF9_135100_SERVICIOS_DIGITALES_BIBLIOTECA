@@ -242,7 +242,7 @@
           .col.p-4
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                p.text-white.mb-0 Afiance los conceptos y saberes sobre Tecnologías de información en las bibliotecas, para ello, explore los enlaces que aquí se proponen:
+                p.text-white.mb-0 Afiance los conceptos y saberes sobre tecnologías de información en las bibliotecas, para ello, explore el video que aquí se propone:
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=yRG2Bf-me6k" target="_blank")
                   span Ver video
@@ -254,7 +254,7 @@
           .col.p-4
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                p.text-white.mb-0 Afiance los conceptos y saberes sobre Tecnologías de información en las bibliotecas, para ello, explore los enlaces que aquí se proponen:
+                p.text-white.mb-0 Afiance los conceptos y saberes sobre tecnologías de información en las bibliotecas, para ello, explore el enlace que aquí se propone:
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.julianmarquina.es/informe-apei-bibliotecas-ante-el-siglo-xxi-nuevos-medios-y-caminos/" target="_blank")
                   span Enlace web
@@ -297,7 +297,7 @@ export default {
       {
         titulo: 'Era tecnológica',
         texto:
-          'En el siglo XXI se instaura un momento y época tecnológicas que hace a la sociedad moverse en medio de  una extensa y variada información transmitida y recibida por diferentes medios y canales.',
+          'En el siglo XXI se instaura un momento y época tecnológica que hace a la sociedad moverse en medio de  una extensa y variada información transmitida y recibida por diferentes medios y canales.',
         icono: require('@/assets/curso/tema2/img15.png'),
       },
       {

@@ -80,7 +80,7 @@
 
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.1 Legislación, reglamentación y políticas.
+      h2 1.1 Legislación, reglamentación y políticas
     
     p Corresponde a la lista de normas, reglamentos y políticas expedidas por el estado colombiano y las instituciones respecto a los procesos de estructura, creación, administración, desarrollo de colecciones, disposición de la información y el fomento del libro y la lectura de las bibliotecas en Colombia. 
     
@@ -103,11 +103,11 @@
           .tarjeta.tarjeta--blanca.p-4
             SlyderA(tipo="b")
               .row.justify-content-center
-                .h4 Constitución Política de Colombia de 1991.
+                .h4 Constitución Política de Colombia de 1991
                 p #[b Artículo 20]: establece la libertad de expresión y difusión de pensamiento como una condición esencial para la vida. La biblioteca es un espacio de constante difusión social del conocimiento, que le permite a las personas expresarse a partir del conocimiento.
                 p.mb-0 #[b Artículo 27]: reflexiona sobre la libertad de enseñanza, aprendizaje, investigación y cátedra, lo que determina que las bibliotecas se deben relacionar con otros tipos de bibliotecas, como las bibliotecas públicas, escolares, universitarias…
               .row.justify-content-center
-                .h4 Ley 44 de 1993: derecho de autor y depósito legal.
+                .h4 Ley 44 de 1993: derecho de autor y depósito legal
                 p.mb-0 En el Art. 7° establece el procedimiento para cumplir con el depósito legal según reglamentación posterior del Decreto 460 de 1995, Art. 25, que incluye, además de la Biblioteca Nacional, a las bibliotecas departamentales como depositarias.
               .row.justify-content-center
                 .h4 Ley 98 de 1993: Ley de Democratización y Fomento del Libro
@@ -272,13 +272,13 @@
       .BGR4.p-3(x="56%" y="18%" numero="4")
         .h5.mb-2 Demanda potencial total
         p.mb-0 Hace referencia a las posibilidades máximas de solicitud o requerimiento que los elementos de la oferta y/o servicios que se presten en la biblioteca por parte de la totalidad de los usuarios o una mayoría identificada de ellos.
-      .BGR4.p-3(x="56%" y="82%" numero="5")
+      .BGR4.p-3(x="68.5%" y="38.5%" numero="5")
         .h5.mb-2 Demanda no expresada
         p.mb-0 Se trata de aquellos aspectos de necesidad o expectativa que tienen los usuarios sobre los servicios bibliotecarios, pero que no son identificados bajo ningún mecanismo ni expresados a la biblioteca.
-      .BGR4.p-3(x="68.5%" y="38.5%" numero="6")
+      .BGR4.p-3(x="68.5%" y="61.5%" numero="6")
         .h5.mb-2 Demanda no satisfecha
         p.mb-0 Se refiere a la imposibilidad total o parcial de cumplir con las expectativas, exigencias o necesidades que, del servicio de la biblioteca, tengan los usuarios (bien sea de manera individual, grupal o total).
-      .BGR4.p-3(x="68.5%" y="61.5%" numero="7")
+      .BGR4.p-3(x="56%" y="82%" numero="7")
         .h5.mb-2 Demanda satisfecha
         p.mb-0 Refiere al cumplimiento total de las expectativas, exigencia o necesidades que, del servicio bibliotecario, tengan los usuarios (individual, grupal o totalmente).
 
@@ -407,7 +407,7 @@
           .col.p-4
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                p.text-white.mb-0 Afiance sus saberes en lo relacionado con el Estudio de usuarios: 
+                p.text-white.mb-0 Afiance sus saberes en lo relacionado con el estudio de usuarios: 
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=LgXQ0PmkW_o" target="_blank")
                   span Ver video
@@ -419,7 +419,7 @@
           .col.p-4
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                p.text-white Amplíe los conceptos vistos sobre Formación de usuarios, explorando el enlace que aquí se propone:
+                p.text-white Amplíe los conceptos vistos sobre formación de usuarios, explorando el video que aquí se propone:
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=d_NmCueSotM" target="_blank")
                   span Ver video

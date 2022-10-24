@@ -246,7 +246,7 @@ export default {
     },
     {
       tema: 'Legislación, reglamentación y políticas',
-      referencia: 'Ministerio de Cultura (20210). Ley de Bibliotecas Públicas.',
+      referencia: 'Ministerio de Cultura (2010). Ley de Bibliotecas Públicas.',
       tipo: 'Artículo',
       link:
         'https://bibliotecanacional.gov.co/es-co/formacion/caja-de-herramientas/Documents/Ley%20de%20bibliotecas%20publicas%201379%20de%202010.pdf',
@@ -274,7 +274,7 @@ export default {
       link: 'https://www.youtube.com/watch?v=LgXQ0PmkW_o',
     },
     {
-      tema: 'Tipos de usuarios',
+      tema: 'Formación de usuarios',
       referencia:
         'Biblioteca Nacional de España. (2014). Formación de usuarios. [Video].  YouTube.',
       tipo: 'Video',
@@ -485,8 +485,8 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Maria Eugenia Mejia Lopez',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
