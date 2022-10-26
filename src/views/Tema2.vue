@@ -10,9 +10,9 @@
     .row.justify-content-center.mb-4
       .col-lg-10
         .BG07.p-4
-          .row.justify-content-center.mb-4
+          .row.justify-content-center.align-items-center.mb-4
             .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-              img(src="@/assets/curso/tema2/img01.png")
+              img(src="@/assets/curso/tema2/img01.svg")
             .col-lg-8
               p Las bibliotecas pueden ofrecer información eficiente y oportuna de acuerdo con las necesidades de los usuarios, mediante estrategias y políticas de acceso a la información que promuevan cumplir con las expectativas institucionales y de satisfacción por consulta.
               p Es así como, dentro del proceso de prestación de servicios bibliotecarios y de información, se deben establecer los formatos, según características, en que la información será almacenada, protegida, distribuida, ofertada y cuidada.
@@ -60,54 +60,54 @@
           .BGIMG01.p-4
             .row.justify-content-center.mb-5
               .col-4
-                img(src="@/assets/curso/tema2/img04.png")
+                img(src="@/assets/curso/tema2/img04.svg")
             .h5.mt-5 <span style="color:#FFC98C">TIC y desarrollo personal</span>
             p.text-white.mb-0 La información y el desarrollo personal solo pueden realizarse, hoy en día, mediante las posibilidades que ofrecen las tecnologías de la información.
           .BGIMG01.p-4
             .row.justify-content-center.mb-5
               .col-4
-                img(src="@/assets/curso/tema2/img05.png")
+                img(src="@/assets/curso/tema2/img05.svg")
             .h5 <span style="color:#FFC98C">Conocimiento universal</span>
             p.text-white.mb-0 En este sentido, la biblioteca se estructura como un sistema de información del conocimiento universal.
           .BGIMG01.p-4
             .row.justify-content-center.mb-5
               .col-4
-                img(src="@/assets/curso/tema2/img06.png")
+                img(src="@/assets/curso/tema2/img06.svg")
             .h5 <span style="color:#FFC98C">Retroalimentación</span>
             p.text-white.mb-0 Las bibliotecas planean, organizan y ejecutan sus acciones, personal y procedimientos de entrada, salida y retroalimentación.
           .BGIMG01.p-4
             .row.justify-content-center.mb-5
               .col-4
-                img(src="@/assets/curso/tema2/img07.png")
+                img(src="@/assets/curso/tema2/img07.svg")
             .h5 <span style="color:#FFC98C">Componentes principales</span>
             p.text-white.mb-0 Sus componentes se constituyen en dos conjuntos principales: las colecciones documentales y el usuario.
           .BGIMG01.p-4
             .row.justify-content-center.mb-5
               .col-4
-                img(src="@/assets/curso/tema2/img08.png")
+                img(src="@/assets/curso/tema2/img08.svg")
             .h5 <span style="color:#FFC98C">Acceso y disponibilidad</span>
             p.text-white.mb-0 La documentación y la información en bruto proviene del desarrollo intelectual y la labor del productor la que se convierte en el insumo principal de una cadena de gestión basada en las políticas y normas bibliotecarias, que la convierten en información con acceso y disponibilidad.
 
     p En principio, las bibliotecas, como parte de su estructura base y en relación con los servicios que pretende ofrecer, deben contar con, al menos:
 
-    .tarjeta--container.row.justify-content-center
-      .col-lg-5.col-md-10.BG01.p-4(data-aos="fade-right")
+    .tarjeta--container.row.justify-content-center.mb-4
+      .col-lg-5.col-md-10.BGLeft01.p-5(data-aos="fade-right")
         .row.justify-content-center.mb-4
           .col-10
             figure
-              img(src='@/assets/curso/tema2/img09.png')
+              img(src='@/assets/curso/tema2/img09.svg')
         .h4 Sistema de clasificación
         p.mb-0 Es un sistema de clasificación internacional estructurado, robusto y de uso general que evite los procesos artesanales y de poca seguridad para codificar la temática a la que pertenece cada documento.
-      .col-lg-5.col-md-10.BG06.p-4(data-aos="fade-left")
+      .col-lg-5.col-md-10.BGRight06.p-5(data-aos="fade-left")
         .row.justify-content-center.mb-4
           .col-10
             figure
-              img(src='@/assets/curso/tema2/img10.png')
+              img(src='@/assets/curso/tema2/img10.svg')
         .h4 Lenguajes temáticos
         p.mb-0 Para los procesos de palabras clave se debe contar con lenguajes temáticos normalizados y de desarrollo profundo en las áreas temáticas necesarias, como es el caso de los tesauros y las listas de encabezamientos de materias.
     
     .row.justify-content-center.mb-4(data-aos="flip-up")
-      .col-lg-8.col-11.BGRS08.p-4
+      .col-lg-8.col-11.BG08.p-4
         .row.align-items-center
           .col-lg-1.col-2
             img(src="@/assets/curso/tema1/img15.png")
@@ -123,17 +123,18 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.BGR09.p-4
-        .row.justify-content-center
+        .row.justify-content-center.align-items-center
           .col-lg-9.order-lg-1.order-2
             p El uso de internet y demás canales y medios tecnológicos para el acceso a la información, se han convertido culturalmente en la estrategia dinamizadora y de fidelización de la biblioteca con sus diferentes tipos de usuarios. 
-            .row.align-items-center.BG01(data-aos="fade-right")
-              .col-lg-1.col-2.px-0
-                img(src="@/assets/curso/temas/img01.png")
-              .col.p-4
-                .h4 <span style="color:#785549">Nota</span>
-                p.mb-0 En este sentido, la definición concreta de la estructura de servicios hace que la biblioteca, por sí sola, regule su nivel reputacional en razón a dichos servicios y la misma satisfacción de sus usuarios.
+            .BG01(data-aos="fade-right")
+              .row.align-items-center
+                .col-lg-2.col-3
+                  img(src="@/assets/curso/temas/img01.png")
+                .col.p-4
+                  .h4 <span style="color:#785549">Nota</span>
+                  p.mb-0 En este sentido, la definición concreta de la estructura de servicios hace que la biblioteca, por sí sola, regule su nivel reputacional en razón a dichos servicios y la misma satisfacción de sus usuarios.
           .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-            img(src='@/assets/curso/tema2/img11.png')
+            img(src='@/assets/curso/tema2/img11.svg')
 
     p Como aspecto clave de la estructura y reglamentación de la biblioteca, conozca los componentes básicos de la misma:
 
@@ -169,23 +170,16 @@
 
     .row.justify-content-center.mb-4
       .col-lg-10.BG01.p-4(data-aos="flip-up")
-        .row.justify-content-center.mb-4
+        .row.justify-content-center
           .col-lg-4.col-8.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema2/img13.png')
+            img.img02(src='@/assets/curso/tema2/img14.png')
           .col-lg-8
-            p Si algo ha caracterizado a las bibliotecas, es su nivel de adaptación a los tiempos, a la sociedad y a la tecnología, pues las bibliotecas son pioneras en ubicar sus recursos informativos y tecnológicos al alcance de las personas.
-            a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
-              span Atención
-              i.fas.fa-search
-              .indicador--click(v-if="mostrarIndicador")
-
-    ModalA(:abrir-modal.sync="modal1")
-      .row.justify-content-center
-          .col-lg-4.col-8.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema2/img14.png')
-          .col-lg-8
-            p.mb-0 Las bibliotecas son el puente de conexión entre los recursos de información con a las personas, en procura de fidelizar el acceso mismo a sus servicios, dejando la inquietud en cada usuario sobre la importancia de la información, la lectura y los libros.
-
+            .row.justify-content-center.align-items-center    
+              .col-lg-2.col-3
+                img.w-75(src="@/assets/curso/tema1/img15.png")
+              .col
+                .h4 <span style="color:#785549;">¡Importante!</span>
+                p.mb-0 Si algo ha caracterizado a las bibliotecas, es su nivel de adaptación a los tiempos, a la sociedad y a la tecnología, pues las bibliotecas son pioneras en ubicar sus recursos informativos y tecnológicos al alcance de las personas.
     .row.justify-content-center.mb-4
       .col-lg-8.mb-4
         p.text-center.mb-0 En relación con los medios de acceso a los recursos digitales de la información, es necesario tener en cuenta aspectos clave como los que se mencionan a continuación:
@@ -242,6 +236,7 @@
           .col.p-4
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
+                .h4 <span style="color:#FD9827;">#[em YouMedia] Chicago</span>
                 p.text-white.mb-0 Afiance los conceptos y saberes sobre tecnologías de información en las bibliotecas, para ello, explore el video que aquí se propone:
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=yRG2Bf-me6k" target="_blank")
@@ -254,6 +249,7 @@
           .col.p-4
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
+                .h4 <span style="color:#FD9827;">[Informe APEI] Bibliotecas ante el siglo XXI: nuevos medios y caminos</span>
                 p.text-white.mb-0 Afiance los conceptos y saberes sobre tecnologías de información en las bibliotecas, para ello, explore el enlace que aquí se propone:
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.julianmarquina.es/informe-apei-bibliotecas-ante-el-siglo-xxi-nuevos-medios-y-caminos/" target="_blank")
@@ -266,10 +262,13 @@
         h2 2.5 Recursos tecnológicos para la prestación del servicio bibliotecario
       
       p A partir de la revisión y análisis de los servicios que presta actualmente cada biblioteca, el autodiagnóstico, estudio de usuarios y la exploración de diversas herramientas tecnológicas puede apoyar procesos de diseño o mejoramiento de servicios bibliotecarios, respecto a los servicios que presta y a su relación con la comunidad.
-      p A continuación, se expone, de manera sintética, el catálogo de servicios digitales en las bibliotecas.
+      p.mb-5 A continuación, se expone, de manera sintética, el catálogo de servicios digitales en las bibliotecas.
 
       figure.mb-4(data-aos="zoom-in")
-        img(src='@/assets/curso/tema2/img22.svg')
+        img.vanish(src='@/assets/curso/tema2/img22.svg')
+
+      figure.mb-4(data-aos="zoom-in")
+        img.vanishResponsive(src='@/assets/curso/tema2/img23.svg')
       
     .row.justify-content-center.mb-4
       .col-lg-10.mb-4(data-aos="flip-up")
@@ -279,9 +278,10 @@
           .col.p-4
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
+                .h4 <span style="color:#FD9827;">Servicios bibliotecarios que unen comunidades</span>
                 p.text-white.mb-0 Interiorice el concepto de “Recursos tecnológicos”, analizando la información contenida en el siguiente enlace:
               .col-sm-auto
-                a.boton.color-acento-botones(href="https://www.julianmarquina.es/informe-apei-bibliotecas-ante-el-siglo-xxi-nuevos-medios-y-caminos/" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/Guia_36_Cartilla_servicios_bibliotecarios.pdf')" target="_blank" type="application/pdf")
                   span Enlace web
                   i.fas.fa-link
 
@@ -291,44 +291,42 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    mostrarIndicador: true,
-    modal1: false,
     datosLineaTiempoB: [
       {
         titulo: 'Era tecnológica',
         texto:
           'En el siglo XXI se instaura un momento y época tecnológica que hace a la sociedad moverse en medio de  una extensa y variada información transmitida y recibida por diferentes medios y canales.',
-        icono: require('@/assets/curso/tema2/img15.png'),
+        icono: require('@/assets/curso/tema2/img15.svg'),
       },
       {
         titulo: 'Innovación y adaptación',
         texto:
           'Las bibliotecas, sin duda, se tienen que reinventar y adaptar sin falta. Se deben inscribir en una carrera de fondo en la cual no es necesario ser los primeros, pero sí llevar un ritmo de competencia que les permita cumplir con los objetivos propios y las necesidades de investigación y conocimiento de sus usuarios potenciales.',
-        icono: require('@/assets/curso/tema2/img16.png'),
+        icono: require('@/assets/curso/tema2/img16.svg'),
       },
       {
         titulo: 'Información y toma de decisiones',
         texto:
           'Para ello hay que tratar de obtener la mayor información posible, tanto de usuarios como de usuarios potenciales para tomar decisiones.',
-        icono: require('@/assets/curso/tema2/img17.png'),
+        icono: require('@/assets/curso/tema2/img17.svg'),
       },
       {
         titulo: 'Almacenamiento y procesamiento amplios',
         texto:
           'En este sentido, la tecnología debe ser capaz de almacenar grandes cantidades de datos y cruzarlos entre sí para dar posibles soluciones a cualquier tipo de necesidad de información.',
-        icono: require('@/assets/curso/tema2/img18.png'),
+        icono: require('@/assets/curso/tema2/img18.svg'),
       },
       {
         titulo: 'Transferencia a las comunidades',
         texto:
           'No es necesario sacar la colección física fuera de las paredes de la biblioteca, se puede solo llevar los contenidos digitales de la biblioteca a cada rincón a través de aplicaciones, pues la mayoría de las personas suelen llevar un dispositivo móvil conectado a internet.',
-        icono: require('@/assets/curso/tema2/img19.png'),
+        icono: require('@/assets/curso/tema2/img19.svg'),
       },
       {
         titulo: 'Interconectividad e interacción',
         texto:
           'Todos los individuos o grupos poblacionales pueden, cada vez más, estar en contacto con las bibliotecas, de una u otra manera, razón por la cual ellas deberán coordinar y establecer estrategias tecnológicas para garantizar estabilidad en acceso, consulta, disponibilidad de la información.',
-        icono: require('@/assets/curso/tema2/img20.png'),
+        icono: require('@/assets/curso/tema2/img20.svg'),
       },
     ],
   }),

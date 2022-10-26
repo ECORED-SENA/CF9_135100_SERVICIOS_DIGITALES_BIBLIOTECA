@@ -42,13 +42,13 @@
   100%
     transform: translateX(0px)
   
-.BG01, .BGR01, .BGRS01
+.BG01, .BGR01, .BGRS01, .BGLeft01
   background-color: #FEEAD3
 
 .BGR02
   background-color: #31313C
 
-.BG03
+.BG03, .BGR03
   background-color: #fff
 
 .BGR4
@@ -57,13 +57,16 @@
 .BG05
   background-color: #FEEFDE
 
-.BG06
+.BG06, .BGR06, .BGRight06
   background-color: #E4DDDA
+
+.BGR06.acordion__activo
+  background-color: #FEEAD3
 
 .BG07
   background: linear-gradient(to top,#FEEAD3,#fff)
 
-.BGRS08
+.BG08, .BGRS08
   background-color: #E8E8E8
 
 .BGR09
@@ -78,7 +81,7 @@
 .acordion__accion__btn--a
   background-color: #C0C942
 
-.BGR01, .BGIMG01, .BGIMG02, .BGR4, .BGIMG08, .BGR10
+.BGR01, .BGIMG01, .BGIMG02, .BGR03, .BGR4, .BGR06, .BGIMG08, .BGR10
   border-radius: 15px
 
 .BGR02, .BGIMG01A
@@ -87,6 +90,12 @@
 .BGRS01
   border-radius: 0 0 15px 15px
   border-top: 10px solid #F6E1CB
+
+.BGLeft01
+  border-radius: 15px 0 0 15px
+
+.BGRight06
+  border-radius: 0 15px 15px 0
 
 .BGRS08
   border-radius: 0 0 15px 15px
@@ -119,12 +128,20 @@
 .BGIMG09
   background-image: url("../assets/curso/fondos/img09.png")
 
+.BGIMG10
+  background-image: url("../assets/curso/fondos/img10.png")
+
 .BGIMG01, .BGIMG01A, .BGIMG02, .BGIMG03, .BGIMG04, .BGIMG05, .BGIMG06, .BGIMG07, .BGIMG08, .BGIMG09
   background-size: cover 
   background-repeat: no-repeat
   background-position: center
 
-.MLine, .BGIMG03
+.BGIMG10
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: bottom
+
+.MLine, .BGIMG03, .BGIMG10
   margin-inline: -3.2rem !important
   @media (max-width: $bp-max-sm)
     margin-inline: -1.4rem !important
@@ -176,6 +193,54 @@
 .img-w90
   width: 90%
 
+.img01
+  width: 120%
+  right: 12%
+  bottom: 0px
+  @media (max-width: $bp-max-xl)
+    width: 130%
+    right: 15%
+    bottom: -19px
+  @media (max-width: $bp-max-lg)
+    width: 135%
+    right: 14%
+    bottom: -61px
+  
+.img02
+  width: 100%
+  right: 15%
+  bottom: -23px
+  @media (max-width: $bp-max-lg)
+    width: 127%
+  
+.img01, .img02
+  position: relative
+  max-width: 150%
+  @media (max-width: $bp-max-md)
+   position: inherit
+   width: 100%
+   bottom: 0px
+   right: 0px
 
 
+.vanish
+  @media (max-width: $bp-max-md)
+    width: 0%
+  
+.vanishResponsive
+  @media (min-width: $bp-max-md)
+    width: 0%
 
+.banner-interno__titulo__icono i
+  color: #FD9827 !important
+
+.BGR03
+  height: 363px
+  @media (max-width: $bp-max-xl)
+    height: 372px
+  @media (max-width: $bp-max-lg)
+    height: 405px
+  @media (max-width: $bp-max-md)
+    height: 325px
+  @media (max-width: $bp-max-md)
+    height: 395px

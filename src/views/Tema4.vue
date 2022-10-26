@@ -15,8 +15,8 @@
       .col-lg-7
         p Por lo anterior, es necesario que los bibliotecarios definan sus servicios y promuevan el alcance del uso de sus recursos tecnológicos desde el desarrollo de sus colecciones y disposición de la información en dichos medios digitales. 
         .row.align-items-center.BGR01.p-4(data-aos="fade-left")
-          .col-lg-2.col-3
-            img(src="@/assets/curso/tema1/img15.png")
+          .col-2
+            img.w-md-75(src="@/assets/curso/tema1/img15.png")
           .col
             .h4 <span style="color:#785549">¡Atención!</span>
             p.mb-0 La transferencia de información es un mecanismo que, bien estructurado, permite llegar a más personas y empoderarlas para que, a través del buen uso de estos medios, se consolide la información, se promueva el conocimiento y posibilite la formación de ciudadanos digitales críticos y participativos.
@@ -26,29 +26,29 @@
       h2 4.1 Clasificación, características y criterios de selección de información
     
     p Para la clasificación de la información, el bibliotecario dispone de distintas estrategias de investigación, como mediador del conocimiento, para guiar al usuario a satisfacer las diversas necesidades de información que se presenten. Por ello, se conforma un equipo de trabajo con el usuario, definiendo qué estrategias de exploración aplicar.
-    p Principalmente, las estrategias de exploración de información que se aplican son:
+    p.mb-5 Principalmente, las estrategias de exploración de información que se aplican son:
 
     .row.justify-content-center.mb-4
       .col-lg-10.mb-4
         .row.justify-content-center
-          .col-lg-4(data-aos="fade-right")
+          .col-lg-4.col-10.mb-lg-0.mb-4(data-aos="fade-right")
             .BGR10.p-4
               .row.justify-content-center.mb-4
-                .col-lg-4.col-6
-                  img(src='@/assets/curso/tema4/img02.png')
-              p Búsqueda por palabra clave.
-          .col-lg-4(data-aos="flip-up")
+                .col-md-4.col-5
+                  img(src='@/assets/curso/tema4/img02.svg')
+              p.text-center Búsqueda por palabra clave.
+          .col-lg-4.col-10.mb-lg-0.mb-4(data-aos="flip-up")
             .BGR10.p-4
               .row.justify-content-center.mb-4
-                .col-lg-4.col-6
-                  img(src='@/assets/curso/tema4/img03.png')
-              p Búsqueda por tema.
-          .col-lg-4(data-aos="fade-left")
+                .col-md-4.col-5
+                  img(src='@/assets/curso/tema4/img03.svg')
+              p.text-center Búsqueda por tema.
+          .col-lg-4.col-10(data-aos="fade-left")
             .BGR10.p-4
               .row.justify-content-center.mb-4
-                .col-lg-4.col-6
-                  img(src='@/assets/curso/tema4/img04.png')
-              p Búsqueda aplicando buscadores booleanos (AND, OR, NOT). 
+                .col-md-4.col-5
+                  img(src='@/assets/curso/tema4/img04.svg')
+              p.text-center Búsqueda aplicando buscadores booleanos (AND, OR, NOT). 
       .col-lg-10.mb-4
         p.mb-0 Las diversas herramientas de búsqueda como los catálogos bibliográficos, bases de datos, Opac, Google, etc., permiten que el usuario realice este tipo de búsquedas.
       .col-lg-8(data-aos="flip-up")
@@ -104,7 +104,7 @@
       #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 4.3 Orientación al usuario
       
-      p La atención al usuario se ha convertido en una cuestión de suma importancia en la gestión actual de los servicios que ofrecen las bibliotecas públicas. Adoptar nuevas fórmulas y estrategias en la atención y mejora de servicios es fundamental para fidelizar clientes y conseguir satisfacer sus necesidades de información.
+      p.mb-5 La atención al usuario se ha convertido en una cuestión de suma importancia en la gestión actual de los servicios que ofrecen las bibliotecas públicas. Adoptar nuevas fórmulas y estrategias en la atención y mejora de servicios es fundamental para fidelizar clientes y conseguir satisfacer sus necesidades de información.
 
       .row.justify-content-center.mb-4
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="flip-up")

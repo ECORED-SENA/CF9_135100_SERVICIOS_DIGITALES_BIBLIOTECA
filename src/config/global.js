@@ -4,7 +4,7 @@ export default {
       'Preparación y ejecución de los servicios bibliográficos digitales',
     descripcionCurso:
       'Este componente formativo aborda generalidades de los servicios bibliográficos digitales: conceptos, normas, tipos de información y usuarios, fuentes, recursos digitales, medios, canales y sistemas de información para que el aprendiz se apropie de su rol dentro del sistema de consulta y recursos de información. Se afianzará en herramientas de preparación y ejecución de los servicios digitales de información bibliográfica.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {

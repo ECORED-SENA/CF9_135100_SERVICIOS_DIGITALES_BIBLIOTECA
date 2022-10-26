@@ -12,12 +12,14 @@
     .row.justify-content-center.mb-4
       .col-lg-10.BG01(data-aos="flip-up")
         .row.align-items-center
-          .col-lg-1.col-2.order-1.px-0
+          .col-lg-1.col-2.px-0.vanish
             img(src="@/assets/curso/temas/img01.png")
-          .col-lg-8.order-lg-2.order-3.p-4
-            p La consulta, sin duda, es la palabra y acción misional de toda biblioteca; es una actividad que depende directamente del tipo de usuario, los recursos y las normas que la biblioteca dispone, garantizado el acceso a la información en el menor tiempo posible.
-          .col-lg-3.col-6.order-lg-3.order-2.mb-lg-0.mb-4.p-3
-            img(src="@/assets/curso/tema1/img01.png")
+          .col
+            .row.justify-content-center
+              .col-lg-8.order-lg-1.order-2.p-4
+                p La consulta, sin duda, es la palabra y acción misional de toda biblioteca; es una actividad que depende directamente del tipo de usuario, los recursos y las normas que la biblioteca dispone, garantizado el acceso a la información en el menor tiempo posible.
+              .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4.p-3
+                img(src="@/assets/curso/tema1/img01.svg")
     
     p.text-center.mb-5 Entre las normas más comunes y fundamentales en las bibliotecas, en relación con las obligaciones de los usuarios, se pueden mencionar las siguientes:
 
@@ -25,35 +27,35 @@
       .BGIMG01.p-4
         .row.justify-content-center.mb-5
           .col-4
-            img(src="@/assets/curso/tema1/img02.png")
+            img(src="@/assets/curso/tema1/img02.svg")
         .h5 <span style="color:#FFC98C">Cuidar</span>
         p.text-white.mb-0 Cuidar y hacer buen uso de las instalaciones físicas, mobiliario, equipos y recursos.
       .BGIMG01.p-4
         .row.justify-content-center.mb-5
           .col-4
-            img(src="@/assets/curso/tema1/img03.png")
+            img(src="@/assets/curso/tema1/img03.svg")
         .h5 <span style="color:#FFC98C">Responsabilidad</span>
         p.text-white.mb-0 Ser responsable del material documental en el formato que le sea proporcionado para consulta bajo cualquier forma de préstamo y respetar las fechas que se establezcan para su devolución.
       .BGIMG01.p-4
         .row.justify-content-center.mb-5
           .col-4
-            img(src="@/assets/curso/tema1/img04.png")
+            img(src="@/assets/curso/tema1/img04.svg")
         .h5 <span style="color:#FFC98C">Preservar</span>
         p.text-white.mb-0 Contribuir a preservar los inmuebles, mobiliario, equipos y acervo de la biblioteca y sujetarse a los mecanismos de control, seguridad y vigilancia establecidos para tal efecto.
       .BGIMG01.p-4
         .row.justify-content-center.mb-5
           .col-4
-            img(src="@/assets/curso/tema1/img05.png")
+            img(src="@/assets/curso/tema1/img05.svg")
         .h5 <span style="color:#FFC98C">Respeto</span>
         p.text-white.mb-0 Guardar respeto y consideración a los demás usuarios y servidores de la biblioteca.
       .BGIMG01.p-4
         .row.justify-content-center.mb-5
           .col-4
-            img(src="@/assets/curso/tema1/img06.png")
+            img(src="@/assets/curso/tema1/img06.svg")
         .h5 <span style="color:#FFC98C">Reporte</span>
         p.text-white.mb-0 Reportar cualquier anomalía que se encuentre en el material documental (ausencia, daño intencional o involuntario) y/o en las instalaciones de la biblioteca.
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img07.png")
       .col-lg-7(data-aos="fade-left")
@@ -84,21 +86,21 @@
     
     p Corresponde a la lista de normas, reglamentos y políticas expedidas por el estado colombiano y las instituciones respecto a los procesos de estructura, creación, administración, desarrollo de colecciones, disposición de la información y el fomento del libro y la lectura de las bibliotecas en Colombia. 
     
-    .row.justify-content-center.mb-4
-      .col-lg-10
+    .row.justify-content-center.mb-5
+      .col-lg-10.mb-4
         .bloque-texto-g.color-primario.img-inv.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img08.jpg')})`}"
           )(data-aos="fade-left")
           .bloque-texto-g__texto.p-4(data-aos="fade-right")
             p.mb-0 La legislación de la biblioteca en Colombia, es el compendio de: Constitución política de Colombia, Ley 98 de 1993 sobre Democratización y fomento del libro, la Ley 397 de 1997 denominada Ley General de Cultura y la Ley 1379 de 2010 denominada Ley de Bibliotecas Públicas.
-    
-    p En relación con los principales elementos de la normativa y reglamentación para las bibliotecas en Colombia, reconozca y asimile los aspectos clave que se mencionan a continuación:
+      .col-lg-10
+        p.mb-0 En relación con los principales elementos de la normativa y reglamentación para las bibliotecas en Colombia, reconozca y asimile los aspectos clave que se mencionan a continuación:
 
     .BGIMG02.p-4.mb-4(data-aos="flip-up")
       .row.justify-content-center
         .col-lg-3.col-6.mb-lg-0.mb-4
-          img(src="@/assets/curso/tema1/img09.png")
+          img.vanish(src="@/assets/curso/tema1/img09.svg")
         .col-lg-7
           .tarjeta.tarjeta--blanca.p-4
             SlyderA(tipo="b")
@@ -134,9 +136,10 @@
           .col.p-4
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
+                .h4 <span style="color:#FD9827;">Ley de bibliotecas públicas</span>
                 p.text-white.mb-0 Conozca y explore a profundidad la Ley de Bibliotecas Públicas en el siguiente enlace:
               .col-sm-auto
-                a.boton.color-acento-botones(href="https://bibliotecanacional.gov.co/es-co/formacion/caja-de-herramientas/Documents/Ley%20de%20bibliotecas%20publicas%201379%20de%202010.pdf" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/Ley-de-bibliotecas-publicas-1379-de-2010.pdf')" target="_blank" type="application/pdf")
                   span Enlace web
                   i.fas.fa-link
       .col-lg-10(data-aos="flip-up")
@@ -146,9 +149,10 @@
           .col.p-4
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
+                .h4 <span style="color:#FD9827;">Manifiesto de la IFLA / UNESCO sobre internet</span>
                 p.text-white.mb-0 Amplíe su conocimiento sobre el Manifiesto de Internet IFLA, visitando el siguiente enlace para estudiarlo a profundidad:
               .col-sm-auto
-                a.boton.color-acento-botones(href="https://bibliotecanacional.gov.co/es-co/formacion/caja-de-herramientas/lineamientos-pol%C3%ADticas-y-directrices-sobre-las-bibliotecas-p%C3%BAblicas/manifiesto-de-internet-ifla" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/Manifiesto-de-Internet-IFLA.pdf')" target="_blank" type="application/pdf")
                   span Enlace web
                   i.fas.fa-link
 
@@ -161,20 +165,18 @@
     .row.justify-content-center.mb-4
       .col-lg-10.BG01(data-aos="flip-up")
         .row.justify-content-center.align-items-center
-          .col-lg-5.col-10.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema1/img10.png")
-          .col-lg-7.p-4
-            p La relación entre los medios, variedad de canales de acceso a la información, los usuarios y sus necesidades consolidará la estructura adecuada de servicios, a favor del nivel de satisfacción del cliente.
-            a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
-              span Importante
-              i.fas.fa-search
-              .indicador--click(v-if="mostrarIndicador")
-    ModalA(:abrir-modal.sync="modal1")
-      .row.justify-content-center.align-items-center
-        .col-lg-5.col-10.mb-lg-0.mb-4
-          img(src="@/assets/curso/tema1/img11.png")
-        .col-lg-7
-          p.mb-0 La biblioteca no debe discriminar por raza, edad, sexo, preferencia sexual, origen étnico, social o nacional ni por ideas políticas o religiosas. Se debe facilitar el acceso a la información en cualquier formato y a través de cualquier medio disponible. Es así como la era digital, sin duda, propone una de las estrategias más contundentes y robustas entre la información y los tipos de usuario.          
+          .col-12.p-4
+            p.mb-0 La relación entre los medios, variedad de canales de acceso a la información, los usuarios y sus necesidades consolidará la estructura adecuada de servicios, a favor del nivel de satisfacción del cliente.
+          .col-lg-4.col-10.mb-lg-0.mb-4
+            img.img01(src="@/assets/curso/tema1/img11.png")
+          .col-lg-8.pe-4.pb-4
+            .tarjeta.tarjeta--blanca.px-4.py-2
+              .row.justify-content-center.align-items-center
+                .col-lg-2.col-3
+                  img(src="@/assets/curso/tema1/img15.png")
+                .col
+                  .h4 <span style="color:#785549;">Importante</span>
+                  p.mb-0 La biblioteca no debe discriminar por raza, edad, sexo, preferencia sexual, origen étnico, social o nacional ni por ideas políticas o religiosas. Se debe facilitar el acceso a la información en cualquier formato y a través de cualquier medio disponible. Es así como la era digital, sin duda, propone una de las estrategias más contundentes y robustas entre la información y los tipos de usuario.          
     
     .row.justify-content-center.mb-4
       .col-lg-10.p-4  
@@ -198,6 +200,7 @@
           .col.p-4
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
+                .h4 <span style="color:#FD9827;">La investigación en la FIC. Acceso y democratización de la información</span>
                 p.text-white.mb-0 Comprenda integralmente el concepto y propuesta de la democratización de la información y su impacto en lo cotidiano y las bibliotecas digitales mediante el siguiente video:
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=aj9Sl59Lqdc" target="_blank")
@@ -240,12 +243,12 @@
         span Estructura de la biblioteca digital
       
       .row.justify-content-center.p-4.mb-4
-        .col-lg-3.order-lg-1.order-2(data-aos="fade-right")
+        .col-lg-3.order-lg-1.order-2.mb-lg-0.mb-4(data-aos="fade-right")
           .h4.text-center <span style="color:#FFF; background-color: #785549; padding: 3px">Misión principal</span>
           p Las unidades de información (las bibliotecas digitales) tienen como misión principal seleccionar la información más importante para su comunidad, adquirirla, organizarla para facilitar su uso, promover y ayudar a los usuarios.
-        .col-lg-6.order-lg-2.order-1(data-aos="flip-up")
+        .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="flip-up")
           img(src="@/assets/curso/tema1/img13.svg")
-        .col-lg-3.order-3.mb-lg-0.mb-4(data-aos="fade-left")
+        .col-lg-3.order-3(data-aos="fade-left")
           .h4.text-center <span style="color:#FFF; background-color: #785549; padding: 3px">¡Nota importante!</span>
           p La información ha estado siempre condicionada a la forma de acceso y a la tecnología a través de la cual se hace disponible.
 
@@ -256,7 +259,7 @@
     p La demanda expresada y satisfecha conduce al uso de los servicios de la biblioteca donde, entonces, se deben reconocer y diferenciar al bibliotecario y al usuario, en relación con el uso de los servicios de la biblioteca.
     p La demanda de información y de servicios de información puede, de acuerdo con el uso, tipificarse de la siguiente manera:
 
-    ImagenInfografica.color-acento-botones
+    ImagenInfografica.color-acento-botones.mb-4
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema1/img14.svg')
@@ -283,7 +286,7 @@
         p.mb-0 Refiere al cumplimiento total de las expectativas, exigencia o necesidades que, del servicio bibliotecario, tengan los usuarios (individual, grupal o totalmente).
 
     .row.justify-content-center.mb-4(data-aos="flip-up")
-      .col-lg-10.BGRS01.p-4
+      .col-lg-10.BG01.p-4
         .row.align-items-center
           .col-lg-1.col-2
             img(src="@/assets/curso/tema1/img15.png")
@@ -310,6 +313,8 @@
         .BGIMG07.p-4
           .h4 <span style="color:#785549">4.	Conocer</span>
           p.mb-0 Conocer el nivel de satisfacción y contexto de la información.
+    
+    .row.justify-content-center.mb-4
       .col-lg-3.mb-lg-0.mb-4(data-aos="fade-right")
         .BG05.p-4
           .h4 <span style="color:#785549">5.	Establecer</span>
@@ -324,7 +329,7 @@
           p.mb-0 Determinar nuevas estrategias de investigación y acceso a la información.
       .col-lg-3(data-aos="fade-left")
         .BG05
-          img(src="@/assets/curso/tema1/img16.png")
+          img(src="@/assets/curso/tema1/img16.svg")
         
     p.mb-5 En este sentido, los resultados de un estudio de usuarios determinarán la efectividad del servicio prestado por la biblioteca, si este es apropiado o no a sus necesidades y qué se podría implementar para hacerlo más eficiente. 
 
@@ -355,14 +360,14 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema1/img19.png')
+              img(src='@/assets/curso/tema1/img19.svg')
         .h4 Estudiante
         p.mb-0 Usuario interno de la institución donde está adscrita la biblioteca. Demanda consultas múltiples con periodos de préstamo relativos para hacer más amplia la información por obtener. Acude a la biblioteca de forma directa, mayormente, por un compromiso académico más que por su propia iniciativa.
       .col-lg-3.col-md-6.BG06.p-4(data-aos="flip-up")
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema1/img20.png')
+              img(src='@/assets/curso/tema1/img20.svg')
         .h4 Personal docente
         p Imparte enseñanza en asignaturas designadas por la institución académica donde se encuentran ubicadas o adscritas las bibliotecas. 
         p.mb-0 Es un cliente constante y busca, generalmente, afianzar conocimientos sobre su materia, mejorar su nivel de trabajo, aportar fuentes de consulta a sus estudiantes.
@@ -370,14 +375,14 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema1/img21.png')
+              img(src='@/assets/curso/tema1/img21.svg')
         .h4 Usuarios potenciales
         p Logra entrar a la biblioteca y superar las otras barreras del acceso para solicitar, buscar, recuperar y utilizar algún recurso de información que se ofrecen en la colección, o que solicita un dato o información, o que desea utilizar las instalaciones que se tienen disponibles.
       .col-lg-3.col-md-6.BG06.p-4(data-aos="fade-left")
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/tema1/img22.png')
+              img(src='@/assets/curso/tema1/img22.svg')
         .h4 Otros usuarios
         p La mayor parte de los servicios que ofrece la biblioteca pueden ser utilizados por cualquier ciudadano. Acogiéndose, en ambos sentidos, al cumplimiento de las normas y compromisos del servicio.
         p.mb-0 Al margen de los miembros de la comunidad donde está adscrita la biblioteca los (alumnos, profesores e investigadores, y personal de administración y servicios), son estos los usuarios a los que se les permite un uso total de los servicios bibliotecarios.
@@ -407,6 +412,7 @@
           .col.p-4
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
+                .h4 <span style="color:#FD9827;">Tipos de estudios de usuarios</span>
                 p.text-white.mb-0 Afiance sus saberes en lo relacionado con el estudio de usuarios: 
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=LgXQ0PmkW_o" target="_blank")
@@ -419,6 +425,7 @@
           .col.p-4
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
+                .h4 <span style="color:#FD9827;">Formación de usuarios</span>
                 p.text-white Amplíe los conceptos vistos sobre formación de usuarios, explorando el video que aquí se propone:
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=d_NmCueSotM" target="_blank")
@@ -430,13 +437,13 @@
       h2 1.5 Unidades de información
 
     p En la actualidad, las bibliotecas están orientadas a las necesidades de sus usuarios y aspiran a superar con éxito el desafío de definir y evaluar quiénes son y quiénes podrían llegar a serlo.
-    p Esta definición es importante para identificar las necesidades de usuarios existentes y potenciales, evaluando cuántos de los servicios que ya ofrece satisfacen efectivamente dichas necesidades y qué servicios nuevos se podrían crear para satisfacer otras a las que, por el momento, no se está respondiendo.
+    p.mb-5 Esta definición es importante para identificar las necesidades de usuarios existentes y potenciales, evaluando cuántos de los servicios que ya ofrece satisfacen efectivamente dichas necesidades y qué servicios nuevos se podrían crear para satisfacer otras a las que, por el momento, no se está respondiendo.
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-8
         .tarjeta-avatar-b
             .tarjeta-avatar-b__img
-              img(src='@/assets/curso/tema1/img23.png' alt='AvatarTop')
+              img(src='@/assets/curso/tema1/img23.svg' alt='AvatarTop')
             .tarjeta.BGR01
               .p-4
                 .h4.mb-2 <span style="color:#785549">¡Sociedad de la información!</span>
@@ -446,28 +453,28 @@
 
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-10
-        AcordionA(tipo="a" clase-tarjeta="BGR01")
-          .row(titulo="Búsqueda y acceso a la información")
+        AcordionA(tipo="a" clase-tarjeta="BGR06")
+          .row.justify-content-center(titulo="Búsqueda y acceso a la información")
             .col-lg-3.col-6.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img24.png')
             .col-lg-7
               p Las competencias y habilidades informacionales de los usuarios determinan cómo buscar y acceder a la información, en relación con las herramientas adecuadas para la gestión y aprovechamiento de esos contenidos.
-          .row(titulo="Sociedad de la información")
+          .row.justify-content-center(titulo="Sociedad de la información")
             .col-lg-3.col-6.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img25.png')
             .col-lg-7
               p Es un conjunto de factores y/o componentes donde la tecnología y las comunicaciones tienen un rol importante en el desarrollo de las regiones; satisfacer las necesidades de información para la toma de decisiones.
-          .row(titulo="Uso y aprovechamiento de las tecnologías")
+          .row.justify-content-center(titulo="Uso y aprovechamiento de las tecnologías")
             .col-lg-3.col-6.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img26.png')
             .col-lg-7
               p Esta conjunción entre las tecnologías y la información contenida y transmitida, poco a poco se ha venido consolidando en un todo dentro de la denominada sociedad de la información, donde se determina el buen uso y aprovechamiento de las tecnologías en relación con la información, esto último impacta al ser humano en la interpretación de datos para la toma de decisiones.
-          .row(titulo="Satisfacción final pretendida")
+          .row.justify-content-center(titulo="Satisfacción final pretendida")
             .col-lg-3.col-6.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img27.png')
             .col-lg-7
               p Por lo anterior, las bibliotecas sin duda se convierten en los entornos determinantes entre las tecnologías, las herramientas, los canales, los medios y toda clase de usuarios que precisan el buen uso de la información en razón a la satisfacción final pretendida.
-          .row(titulo="Determinación de los medios y canales de acceso")
+          .row.justify-content-center(titulo="Determinación de los medios y canales de acceso")
             .col-lg-3.col-6.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img28.png')
             .col-lg-7
@@ -480,10 +487,7 @@
 export default {
   name: 'Tema1',
   components: {},
-  data: () => ({
-    mostrarIndicador: true,
-    modal1: false,
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
