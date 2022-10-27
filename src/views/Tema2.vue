@@ -34,7 +34,7 @@
     
       figure.mb-4(data-aos="zoom-in")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/zdhOwujA5os" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       P El siguiente esquema muestra las generalidades del modelo funcional de los servicios básicos de una biblioteca pública que se debe analizar con atención:
       .row.justify-content-center(data-aos="zoom-in")
