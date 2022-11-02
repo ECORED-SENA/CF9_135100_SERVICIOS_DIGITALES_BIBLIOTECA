@@ -232,7 +232,7 @@
               | Información electrónica “a un clic”.
             li
               <i class="fas fa-circle" style="color:#FD9827; font-size: x-small"></i>
-              | Identificación y caracterización de los componentes y factores fundamentales dentro de la estructura requerida, entre otros .
+              | Identificación y caracterización de los componentes y factores fundamentales dentro de la estructura requerida, entre otros.
         .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4.p-3(data-aos="fade-left")
           img(src="@/assets/curso/tema1/img12.jpg")
 
@@ -393,10 +393,10 @@
         ul.lista-ul--color.ms-4
           li
             <i class="fas fa-circle" style="color:#FD9827; font-size: x-small"></i>
-            | Consumidores de contenidos y conocimientos
+            | Consumidores de contenidos y conocimientos.
           li
             <i class="fas fa-circle" style="color:#FD9827; font-size: x-small"></i>
-            | Agentes activos que se involucran en las diferentes actividades de la biblioteca
+            | Agentes activos que se involucran en las diferentes actividades de la biblioteca.
           li
             <i class="fas fa-circle" style="color:#FD9827; font-size: x-small"></i>
             | Clientes que ayudan a generar nuevos temas de discusión, nuevas posibilidades de servicios, nuevas políticas tanto para el servicio como para la adquisición de materiales y recursos de información que podrían ser útiles.

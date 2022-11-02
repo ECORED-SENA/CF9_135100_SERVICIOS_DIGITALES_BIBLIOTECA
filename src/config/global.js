@@ -366,7 +366,7 @@ export default {
     {
       termino: 'Registro bibliográfico',
       significado:
-        'resultado escrito de la descripción de un documento. Se denomina también asiento bibliográfico y ficha, aunque estos términos se sueles usar para referirse a los catálogos manuales.',
+        'resultado escrito de la descripción de un documento. Se denomina también asiento bibliográfico y ficha, aunque estos términos se suelen usar para referirse a los catálogos manuales.',
     },
     {
       termino: 'Servicios en línea',
@@ -387,7 +387,7 @@ export default {
     },
     {
       referencia:
-        'Euroinnova. (2022). Servicio al cliente en la biblioteca. Euroinnova.',
+        'Euroinnova. (2022). Cómo atender al usuario de las bibliotecas. Euroinnova.',
       link:
         'https://www.euroinnova.co/blog/como-atender-al-usuario-de-las-bibliotecas',
     },
@@ -413,8 +413,6 @@ export default {
     },
     {
       referencia: 'Unesco. (s. f.). ¿Qué es el patrimonio documental? Unesco.',
-      link:
-        'http://www.unesco.org/new/es/santiago/communication-information/memory-of-the-world-programme-preservation-of-documentary-heritage/what-is-documentary-heritage/',
     },
     {
       referencia:

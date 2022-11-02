@@ -58,7 +58,7 @@
           .tarjeta.BGR01
             .p-4
               .h4.mb-2 <span style="color:#785549">¡Recuerde!</span>
-              p.mb-0 Encontrar variedad de información se hace mediante la selección de la información, el formato, el idioma, el contenido, el alcance, la autenticidad, veracidad, actualización, pertinencia, y la relación de esto a los autores y fuentes de información actualización. 
+              p.mb-0 Encontrar variedad de información se hace mediante la selección de la información, el formato, el idioma, el contenido, el alcance, la autenticidad, veracidad, actualización, pertinencia, y la relación de esto a los autores y fuentes de información actualizadas. 
     
     separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -135,7 +135,7 @@
                   td(style="background-color: #EBC9B1;") Buscar estrategias y canales de orientación comprensibles para sus usuarios, en torno al uso de las tecnologías de la información, desde la consulta misma en Internet, como de las consultas de las propias plataformas, colecciones bibliográficas digitales y bases de datos.
                 tr
                   td(style="background-color: #FFF;").text-center Consolidación de la comunidad de usuarios.
-                  td(style="background-color: #FFF;") Tal acción orientada al usuario crea, casi por defecto, la comunidad de usuarios: unos remotos quienes desde su lugar de trabajo o casa consulta la biblioteca y la otra comunidad que presencialmente llega a la biblioteca donde utiliza los equipos y demás recursos de información.
+                  td(style="background-color: #FFF;") Tal acción orientada al usuario crea, casi por defecto, la comunidad de usuarios: unos remotos quienes desde su lugar de trabajo o casa consulta la biblioteca y la otra comunidad que presencialmente llega a la biblioteca donde utilizan los equipos y demás recursos de información.
                 tr
                   td(style="background-color: #EBC9B1;").text-center Atención diferenciada.
                   td(style="background-color: #EBC9B1;") Cada categoría de usuarios merece una orientación especializada y diferenciadora.

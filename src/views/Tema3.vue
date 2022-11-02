@@ -96,7 +96,7 @@
         ul.lista-ul--color
           li
             <i class="fas fa-circle" style="color:#FD9827; font-size: x-small"></i>
-            p #[b Análisis de la segmentación]: dividir el producto en segmentos homogéneos desde el punto de vista de las ventajas ubicadas diferentes de los otros segmentos.
+            p #[b Análisis de la segmentación]: dividir el producto en segmentos homogéneos desde el punto de vista de las ventajas, de los diferentes segmentos.
           li
             <i class="fas fa-circle" style="color:#FD9827; font-size: x-small"></i>
             p #[b Elección de segmentos]: seleccionar uno o varios segmentos objeto, teniendo en cuenta los objetivos de la institución donde se encuentra adscrita la biblioteca y sus cualidades distintas.
@@ -143,29 +143,29 @@
     p Pero, entonces, ¿cómo atender al usuario de las bibliotecas? A continuación, se presentan algunas recomendaciones importantes:
 
     .row.justify-content-center.mb-5
-      .col-lg-3.col-md-6.mb-lg-0.mb-4
-        .BGIMG01A.p-4
+      .col-xl-3.col-md-6.mb-xl-0.mb-4
+        .BGIMG01A.p-3
             .row.justify-content-center.mb-5
               .col-4
                 img(src="@/assets/curso/tema3/img12.svg")
             .h5.text-white Intención
             p.text-white.mb-0 Para empezar, las bibliotecas tienen que cubrir las necesidades y expectativas detectadas en los clientes con actividades de calidad.
-      .col-lg-3.col-md-6.mb-md-0.mb-4
-        .BGIMG01A.p-4
+      .col-xl-3.col-md-6.mb-md-0.mb-4
+        .BGIMG01A.p-3
             .row.justify-content-center.mb-5
               .col-4
                 img(src="@/assets/curso/tema3/img13.svg")
             .h5.text-white Cliente, evaluador del servicio
             p.text-white.mb-0 La calidad de un servicio en una biblioteca siempre la define el cliente. Es decir, que por muchas certificaciones de calidad que se tengan, si el usuario no está satisfecho, la biblioteca no promueve la calidad.
-      .col-lg-3.col-md-6.mb-lg-0.mb-4
-        .BGIMG01A.p-4
+      .col-xl-3.col-md-6.mb-xl-0.mb-4
+        .BGIMG01A.p-3
             .row.justify-content-center.mb-5
               .col-4
                 img(src="@/assets/curso/tema3/img14.svg")
             .h5.text-white Calidad y orientación al usuario
             p.text-white.mb-0 Por tanto, calidad y orientación eficiente al cliente son conceptos que van íntimamente vinculados.
-      .col-lg-3.col-md-6
-        .BGIMG01A.p-4
+      .col-xl-3.col-md-6
+        .BGIMG01A.p-3
             .row.justify-content-center.mb-5
               .col-4
                 img(src="@/assets/curso/tema3/img15.svg")
